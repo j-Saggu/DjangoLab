@@ -11,7 +11,11 @@
     - When we do not use a number, we get a 404 error.
         - We can modify the first argument in the path() call to allow arbitrary alpha characters
             - path('<str:question_id>/vote/', views.vote, name='vote'),
+7 - It is a bad idea because if we change the path, then it wont work properly (?)
+
 
 user: jaskirat
 password: 1234
-sources: https://docs.djangoproject.com/en/4.2/topics/migrations/#:~:text=Migrations%20are%20Django's%20way%20of,problems%20you%20might%20run%20into.
+sources: 
+    - https://docs.djangoproject.com/en/4.2/topics/migrations/#:~:text=Migrations%20are%20Django's%20way%20of,problems%20you%20might%20run%20into.
+    - https://stackoverflow.com/questions/11894916/django-url-pattern-string-parameter 
