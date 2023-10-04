@@ -1,0 +1,7 @@
+1 - https://github.com/j-Saggu/DjangoLab
+2 - Local host shows me a django page that says "The install worked successfully! Congratulations!", among other things
+3 - At "/" we get a "Not Found" and at "/polls" we get a page of text that says "Hello, world. You're at the polls index."
+4 - Migrations are how Django propogates changes we made in our models into our Database
+    - We need migrations to make sure our database is upto date with our code
+
+sources: https://docs.djangoproject.com/en/4.2/topics/migrations/#:~:text=Migrations%20are%20Django's%20way%20of,problems%20you%20might%20run%20into.
