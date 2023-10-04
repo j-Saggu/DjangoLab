@@ -3,5 +3,11 @@
 3 - At "/" we get a "Not Found" and at "/polls" we get a page of text that says "Hello, world. You're at the polls index."
 4 - Migrations are how Django propogates changes we made in our models into our Database
     - We need migrations to make sure our database is upto date with our code
+5 - In the admin site, we see two tables: "Authentication and Authorization" and "Polls" with clickable links in them. If I navigate from the first table and click on users and then my admin account, I can makde edits
+    - To add custom models, we need to make edits to our polls/models.py file. The models will be classes that we add. In polls/admin.py, we we can register the classes in the model class
 
+
+
+user: jaskirat
+password: 1234
 sources: https://docs.djangoproject.com/en/4.2/topics/migrations/#:~:text=Migrations%20are%20Django's%20way%20of,problems%20you%20might%20run%20into.
