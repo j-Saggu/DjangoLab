@@ -5,8 +5,12 @@
     - We need migrations to make sure our database is upto date with our code
 5 - In the admin site, we see two tables: "Authentication and Authorization" and "Polls" with clickable links in them. If I navigate from the first table and click on users and then my admin account, I can makde edits
     - To add custom models, we need to make edits to our polls/models.py file. The models will be classes that we add. In polls/admin.py, we we can register the classes in the model class
-
-
+6 - At polls/38/, we see a page that says "You're looking at question 38." 
+    - At polls/38/results, we see a page that says "You're looking at the results of question 38." 
+    - At polls/38/vote, we see a page that says "You're voting question 38." 
+    - When we do not use a number, we get a 404 error.
+        - We can modify the first argument in the path() call to allow arbitrary alpha characters
+            - path('<str:question_id>/vote/', views.vote, name='vote'),
 
 user: jaskirat
 password: 1234
