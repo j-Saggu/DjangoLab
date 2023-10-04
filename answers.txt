@@ -12,7 +12,9 @@
         - We can modify the first argument in the path() call to allow arbitrary alpha characters
             - path('<str:question_id>/vote/', views.vote, name='vote'),
 7 - It is a bad idea because if we change the path, then it wont work properly (?)
-
+8 - The benefit of using generic views is that they are quick and should just work (no need to spend time debugging)
+        - We should use a generic view when we want quickly write common views without writing much code
+            - We should not use views when we want specific functionality that is different to what views offer
 
 user: jaskirat
 password: 1234
